@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>
+            cityinfo
+        </title>
+        <meta
+        charset="utf-8">
+    </meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            box-sizing: border-box
+        }
+        body{
+            font-family: Arial, Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav{
+            float: left;
+            width: 30;
+            height: 300px;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%
+            background-color: aliceblue;
+            height: 300px;
+            overflow: hidden;
+        }
+       section{
+        content: "";
+        display: table;
+        clear: both;
+       }
+       footer{
+        background-color: aqua;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+       }
+       @media (max-width: 600px) {
+        nav, article{
+            width: 100%;
+            height: auto;
+        }
+       }
+    </style>
+     </head>
+     <body>
+        <h1>city info</h1>
+        <p>A city is a human settlement of a notable size. The term "city" has different meanings around the world and in some places the settlement can be very small.</p>
+        <header>
+            <h2>Hyderabad</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+                <article>
+                    <h1>
+                        charminar
+                    </h1>
+                    <p>
+                        The Charminar is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana. The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years
+                    </p>
+                </article>
+            
+        </section>
+        <footer>
+            <p>this is the footer</p>
+        </footer>
+     </body>
+</html>
+
